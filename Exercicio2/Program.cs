@@ -9,16 +9,18 @@ int[,] matrizB = new int[rows, columns];
 Elements.ElementGenerator(ref matrizB);
 Elements.PrintElements(matrizB);
 Elements.PrintElementsInReverseOrder(matrizB);
+
 // --------------------
+
 public static class Elements
 {
     public static void ElementGenerator(ref int[,] matriz)
     {
         Random random = new Random();
 
-        for (int i = matriz.GetLowerBound(0); i < matriz.GetLength(0); i++)
+        for (int i = matriz.GetLowerBound(0); i <= matriz.GetUpperBound(0); i++)
         {
-            for (int j = matriz.GetLowerBound(1); j < matriz.GetLength(1); j++)
+            for (int j = matriz.GetLowerBound(1); j <= matriz.GetUpperBound(1); j++)
             {
                 matriz[i,j] = random.Next(100);
             }
@@ -28,6 +30,7 @@ public static class Elements
     public static void PrintElements(int[,] matriz)
     {
         Console.WriteLine();
+        System.Console.WriteLine("Matriz imprimida.");
         
         var sequence = 1;
         for (int i = matriz.GetLowerBound(0); i < matriz.GetLength(0); i++)
@@ -43,6 +46,7 @@ public static class Elements
     public static void PrintElementsInReverseOrder(int[,] matriz)
     {
         Console.WriteLine();
+        Console.WriteLine("Ordem Invertida.");
 
         int sequence = matriz.Length;
         for (int i = matriz.GetUpperBound(0); i >= matriz.GetLowerBound(0); i--)
