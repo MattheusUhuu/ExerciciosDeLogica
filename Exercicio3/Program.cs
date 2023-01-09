@@ -6,14 +6,14 @@
 int dimensionN = 0;
 bool lowerThanTwenty = false;
 
-while(lowerThanTwenty == false)
+while (lowerThanTwenty == false)
 {
     Write("Informe o tamanho das dimencoes da matriz quadrada (Menor que 20): ");
     dimensionN = int.Parse(ReadLine()!);
 
     if (dimensionN <= 20 && dimensionN > 0)
         lowerThanTwenty = true;
-    
+
 }
 
 var matrizC = new int[dimensionN, dimensionN];
@@ -33,8 +33,8 @@ public static class Elements
             {
                 Random random = new Random();
 
-                matriz[i,j] = random.Next(100);
-            }    
+                matriz[i, j] = random.Next(100);
+            }
         }
     }
 
