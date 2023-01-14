@@ -11,3 +11,5 @@ imprimir a matriz gerada e imprimir a matriz em ordem invertida.
 O usuário deve informar o número o tamanho da matriz quadrada (dimensão) e os elementos podem ser gerados aleatoriamente (menor que 100).
 
 4 - Escreva um programa para ler uma matriz D de dimensão N x M, onde N e M não poderem ser menores que um. Gerar os elementos aleatoriamente. O usuário deve informar a dimensão (linha e coluna) e um valor máximo para elementos aleatórios. O programa efetuar todas as validações. Lembre-se de aproveitar os recursos da linguagem para facilitar as validações.
+
+5 - Escreva um programa para ler 2 matrizes N x M (definido pelo usuário) e calcular a soma entre elas gerando uma terceira matriz.
