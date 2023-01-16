@@ -3,7 +3,7 @@ Exercícios de lógica de programação.
 
 Este artigo apresenta 30 enunciados de exercícios de algoritmo envolvendo matrizes. Podendo ser desenvolvidos na linguagem de programação com a qual o leitor tenha mais facilidade.
 
-Exercicios encontrados no Blog => https://balta.io/blog/pratique-algoritmo-matrizes
+Exercícios encontrados no Blog => https://balta.io/blog/pratique-algoritmo-matrizes
 
 
 1 - Escreva um programa para ler uma matriz A de 4 linhas por 5 colunas e imprimir seus elementos.
