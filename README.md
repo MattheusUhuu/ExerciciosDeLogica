@@ -19,3 +19,5 @@ O usuário deve informar o número o tamanho da matriz quadrada (dimensão) e os
 5 - Escreva um programa para ler 2 matrizes N x M (definido pelo usuário) e calcular a soma entre elas gerando uma terceira matriz.
 
 6 - Escreva um programa para gerar aleatoriamente (menor que 25) uma matriz N x M de dimensão definidas pelo usuário. Solicitar ao usuário um valor. Imprimir a matriz gerada. Informar se o valor digitado existe na matriz, indicando a posição (linha X coluna) e no final a quantidade de ocorrências.
+
+7 - Escreva um programa para gerar uma matriz E de dimensão N x M, determinar e imprimir o maior e o menor elemento deste conjunto, informando a posição dos mesmos.
