@@ -27,7 +27,7 @@ public class MyArray
             {
                 Random random = new Random();
 
-                array[i,j] = random.Next(100);
+                array[i, j] = random.Next(100);
             }
         }
         return array;
@@ -41,7 +41,7 @@ public class MyArray
         {
             for (int j = array.GetLowerBound(1); j <= array.GetUpperBound(1); j++)
             {
-                WriteLine($"Sequencia {sequence}, Linha: {i}, Coluna: {j}, Valor: {array[i,j]}");
+                WriteLine($"Sequencia {sequence}, Linha: {i}, Coluna: {j}, Valor: {array[i, j]}");
                 sequence++;
             }
         }
@@ -49,7 +49,7 @@ public class MyArray
 
     public void PrintSmallestElement(int[,] array)
     {
-        int smallestValue = 1000;
+        int smallestValue = array[0, 0];
         int row = 0;
         int column = 0;
 
@@ -57,7 +57,7 @@ public class MyArray
         {
             for (int j = array.GetLowerBound(1); j <= array.GetUpperBound(1); j++)
             {
-                var value = array[i,j];
+                var value = array[i, j];
 
                 if (value < smallestValue)
                 {
@@ -75,7 +75,7 @@ public class MyArray
 
     public void PrintBiggestElement(int[,] array)
     {
-        int biggestValue = 0;
+        int biggestValue = array[0, 0];
         int row = 0;
         int column = 0;
 
@@ -83,7 +83,7 @@ public class MyArray
         {
             for (int j = array.GetLowerBound(1); j <= array.GetUpperBound(1); j++)
             {
-                var value = array[i,j];
+                var value = array[i, j];
 
                 if (value > biggestValue)
                 {
