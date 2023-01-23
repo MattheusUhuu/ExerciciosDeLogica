@@ -27,3 +27,5 @@ O usuário deve informar o número o tamanho da matriz quadrada (dimensão) e os
 9 - Escreva um programa para gerar uma matriz quadrada G de dimensão N. Imprimir os elementos da diagonal principal (linha = coluna).
 
 10 - Escreva um programa para gerar uma matriz quadrada H de dimensão N. Imprimir os elementos da diagonal secundária (linha + coluna = dimensão + 1).
+
+11 - Escreva um programa para gerar uma matriz quadrada K de dimensão N. Imprimir os elementos da abaixo da diagonal principal (inclusa).
