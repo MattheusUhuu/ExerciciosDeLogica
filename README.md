@@ -21,3 +21,9 @@ O usuário deve informar o número o tamanho da matriz quadrada (dimensão) e os
 6 - Escreva um programa para gerar aleatoriamente (menor que 25) uma matriz N x M de dimensão definidas pelo usuário. Solicitar ao usuário um valor. Imprimir a matriz gerada. Informar se o valor digitado existe na matriz, indicando a posição (linha X coluna) e no final a quantidade de ocorrências.
 
 7 - Escreva um programa para gerar uma matriz E de dimensão N x M, determinar e imprimir o maior e o menor elemento deste conjunto, informando a posição dos mesmos.
+
+8 - Escreva um programa para gerar uma matriz F (N x M). Criar os vetores IMPAR e PAR com a quantidade de elementos (ímpares / pares) da matriz. Imprimir a matriz e os vetores. Validar para caso não haja uma das duas possibilidades (sem elementos pares ou ímpares).
+
+9 - Escreva um programa para gerar uma matriz quadrada G de dimensão N. Imprimir os elementos da diagonal principal (linha = coluna).
+
+10 - Escreva um programa para gerar uma matriz quadrada H de dimensão N. Imprimir os elementos da diagonal secundária (linha + coluna = dimensão + 1).
