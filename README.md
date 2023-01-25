@@ -31,3 +31,39 @@ O usuário deve informar o número o tamanho da matriz quadrada (dimensão) e os
 11 - Escreva um programa para gerar uma matriz quadrada K de dimensão N. Imprimir os elementos da abaixo da diagonal principal (inclusa).
 
 12 - Escreva um programa para gerar uma matriz quadrada L de dimensão N. Imprimir os elementos da acima da diagonal principal (exclusa).
+
+13 - Escreva um programa para gerar uma matriz quadrada K de dimensão N. Imprimir os elementos da abaixo da diagonal secundária (exclusa).
+
+14 - Escreva um programa para gerar uma matriz quadrada L de dimensão N. Imprimir os elementos da acima da diagonal secundária (inclusa).
+
+15 - Escreva um programa para gerar uma matriz quadrada O de dimensão N. Imprimir os elementos da abaixo da diagonal principal (inclusa) e acima da diagonal secundária (inclusa).
+
+16 - Escreva um programa para gerar uma matriz quadrada P de dimensão N. Imprimir os elementos da abaixo da diagonal principal (inclusa) e abaixo da diagonal secundária (inclusa).
+
+17 - Escreva um programa para gerar uma matriz quadrada Q de dimensão N. Imprimir os elementos da acima da diagonal principal (inclusa) e abaixo da diagonal secundária (inclusa).
+
+18 - Escreva um programa para gerar uma matriz quadrada R de dimensão N. Imprimir os elementos da acima da diagonal principal (inclusa) e acima da diagonal secundária (inclusa).
+
+19 - Escreva um programa para gerar uma matriz quadrada S de dimensão N. Imprimir os elementos da “asa da borboleta”.
+
+20 - Escreva um programa para gerar uma matriz quadrada T de dimensão N. Imprimir os elementos da “ampulheta”.
+
+21 - Escreva um programa para gerar uma matriz (N x M) e outra (N x P). Gerar uma terceira matriz (N x (M+P)), sendo que para cada linha concatenar suas respectivas colunas e apresentar as três matrizes.
+
+22 - Escreva um programa para gerar uma matriz (N x M) e outra (Nx P). Gerar uma terceira matriz (N x (M+P)), sendo que para cada linha intercalar suas respectivas colunas e apresentar as três matrizes.
+
+23 - Escreva um programa para solicitar ao usuário dimensões de uma matriz. Preencher a matriz com os elementos da sequencia de Primos e imprimir o resultado.
+
+24 - Escreva um programa para solicitar ao usuário dimensões de uma matriz. Preencher a matriz com os elementos da sequencia de Fibonacci e imprimir o resultado.
+
+25 - Escreva um programa para gerar uma matriz Y (N x M). Ordem os elementos da matriz de forma crescente e imprimir a matriz original e a matriz ordenada.
+
+26 - Escreva um programa para gerar uma matriz W (N x M). Ordemos elementos da matriz de forma decrescente e imprimir a matriz original e a matriz ordenada.
+
+27 - Escreva um programa para gerar uma matriz X (N x M). Ordenar as linhas da matriz de forma crescente e imprimir a matriz original e a matriz ordenada.
+
+28 - Escreva um programa para gerar uma matriz Z (N x M). Ordenar as colunas da matriz de forma crescente e imprimir a matriz original e a matriz ordenada.
+
+29 - Escreva um programa para solicitar ao usuário um valor. Este valor lido será a quantidade de elementos de um vetor. Gerar os elementos do vetor. A partir do vetor gerado, criar uma matriz, onde a quantidade de linhas será igual à quantidade de elementos do vetor e as colunas serão os valores dos elementos do vetor mais um. Com a matriz criada, armazenar na primeira coluna de cada linha o respectivo elemento do vetor criado inicialmente e os demais elementos da linha serão formados pela sequencia de Primos. Imprimir a matriz resultante.
+
+30 - Escreva um programa para gerar uma matriz (N x M). O usuário deve informar uma faixa de valores inteiros positivos (valor inicial e valor final). O programa deve gerar aleatoriamente os elementos da matriz, respeitando a faixa de valores fornecida pelo usuário. Ao final, imprimir a matriz resultante.
