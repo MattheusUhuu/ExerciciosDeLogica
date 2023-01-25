@@ -32,6 +32,7 @@ myArray.PrintOddArray();
 System.Console.WriteLine("-------------------------------");
 
 myArray.PrintEvenArray();
+
 // -------------------
 
 public class MyArray
@@ -71,7 +72,7 @@ public class MyArray
                 var value = matriz[i, j];
                 if (value % 2 > 0)
                 {
-                    OddArray[oddArrayPosition] = value;
+                    OddArray![oddArrayPosition] = value;
                     oddArrayPosition++;
                 }
             }
@@ -88,7 +89,7 @@ public class MyArray
                 var value = matriz[i, j];
                 if (value % 2 == 0)
                 {
-                    EvenArray[evenArrayPosition] = value;
+                    EvenArray![evenArrayPosition] = value;
                     evenArrayPosition++;
                 }
             }
@@ -218,7 +219,7 @@ public class MyArray
 
         var position = 1;
         WriteLine("Valores do array impar que estavam na matriz multidimensional.");
-        for (int i = OddArray.GetLowerBound(0); i <= OddArray.GetUpperBound(0); i++)
+        for (int i = OddArray!.GetLowerBound(0); i <= OddArray.GetUpperBound(0); i++)
         {
             WriteLine($"Posição: {position}, Valor: {OddArray[i]}");
             position++;
@@ -234,7 +235,7 @@ public class MyArray
 
         var position = 1;
         WriteLine("Valores do Array par que estavam na matriz multidimensional.");
-        for (int i = EvenArray.GetLowerBound(0); i <= EvenArray.GetUpperBound(0); i++)
+        for (int i = EvenArray!.GetLowerBound(0); i <= EvenArray.GetUpperBound(0); i++)
         {
             WriteLine($"Posição: {position}, Valor: {EvenArray[i]}");
             position++;
